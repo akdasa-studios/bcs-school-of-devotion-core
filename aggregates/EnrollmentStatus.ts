@@ -24,5 +24,10 @@ export enum EnrollmentStatus {
   /**
    * Enrollment has been declined.
    */
-  Declined = 'declined'
+  Declined = 'declined',
+
+  /**
+   * Student has completed a course
+   */
+  Graduated = 'graduated'
 }
