@@ -1,3 +1,7 @@
+export const PermissionGroups = [
+  "org", "edu", "fin", "usr"
+]
+
 export enum Permissions {
   OrgRolesManage    = "org-roles-manage",
   OrgUsersManage    = "org-users-manage",
