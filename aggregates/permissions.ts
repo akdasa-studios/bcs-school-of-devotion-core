@@ -1,20 +1,20 @@
 export const PermissionGroups = [
-  "org", "edu", "fin", "usr"
+  'org', 'edu', 'fin', 'usr'
 ]
 
 export enum Permission {
-  OrgRolesManage    = "org-roles-manage",
-  OrgUsersManage    = "org-users-manage",
-  OrgSettingsManage = "org-settings-manage",
+  OrgRolesManage    = 'org-roles-manage',
+  OrgUsersManage    = 'org-users-manage',
+  OrgSettingsManage = 'org-settings-manage',
 
-  EduCoursesManage  = "edu-courses-manage",
-  EduClassesManage  = "edu-classes-manage",
-  EduStudentsManage = "edu-students-manage",
-  EduHomeworkManage = "edu-homework-manage",
+  EduCoursesManage  = 'edu-courses-manage',
+  EduClassesManage  = 'edu-classes-manage',
+  EduStudentsManage = 'edu-students-manage',
+  EduHomeworkManage = 'edu-homework-manage',
 
-  FinReportsAccess  = "fin-reports-access",
-  FinPaymentsManage = "fin-payments-manage",
+  FinReportsAccess  = 'fin-reports-access',
+  FinPaymentsManage = 'fin-payments-manage',
 
-  UsrEnrollInClass  = "usr-enrollment",
-  UsrHasHomework    = "usr-homework",
+  UsrEnrollInClass  = 'usr-enrollment',
+  UsrHasHomework    = 'usr-homework',
 }
