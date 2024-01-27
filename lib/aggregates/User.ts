@@ -3,6 +3,11 @@ import type { RoleIdentity } from './Role'
 
 export type UserIdentity = UuidIdentity<'User'>
 
+export enum UserStatus {
+  Invited = 'invited',
+  Active = 'active',
+  Inactive = 'inactive',
+}
 
 export class User
   extends Aggregate<UserIdentity>
@@ -10,7 +15,12 @@ export class User
   constructor(
     identity: UserIdentity,
     public name: string,
-    public roleIds: RoleIdentity[] = []
+    public email: string,
+    public roleIds: RoleIdentity[] = [],
+    public status: UserStatus = UserStatus.Active,
+    public title: string = '',
+    public department: string = '',
+    public avatarUrl: string = ''
   ) {
     super(identity)
   }
