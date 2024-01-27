@@ -1,3 +1,5 @@
-export { EnrollmentStatus } from './EnrollmentStatus'
-export { Role, type RoleIdentity } from './Role'
-export { Permission, PermissionGroups } from './permissions'
+export * from './EnrollmentStatus'
+export * from './Role'
+export * from './User'
+export * from './permissions'
+
